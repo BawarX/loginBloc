@@ -15,7 +15,7 @@ class ShopItems extends StatelessWidget {
         actions: [
           BlocBuilder<CartBloc, CartState>(
             builder: (context, state) {
-              return Text("");
+              return Text(" ");
             },
           ),
         ],
